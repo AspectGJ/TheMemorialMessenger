@@ -9,6 +9,8 @@ public class EnemyController : HumanManager
     float distance;
     [SerializeField] float maxDistance;
 
+    GameObject GM;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +20,9 @@ public class EnemyController : HumanManager
             distance = Vector3.Distance(transform.position, playerPos.position);
         }
         InvokeRepeating("Shoot", 0f, 2f);
+
+        GM = GameObject.FindGameObjectWithTag("GM");
+
     }
 
     
@@ -40,5 +45,28 @@ public class EnemyController : HumanManager
             newBullet = Instantiate(bulletEnemyPref, transform.position + new Vector3(-0.8f, 0, 0), Quaternion.identity);
         }
     }
+
+    //if enemy get trigger by player's box collider
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            //if player is using knife
+            if (GM.GetComponent<GameManager>().knife)
+            {
+                //enemy get damage
+                hp -= 1;
+                print("enemy hp: " + hp);
+                //if enemy's hp is 0
+                if (hp <= 0)
+                {
+                    //enemy is dead
+                    Destroy(gameObject);
+                }
+            }
+            
+        }
+    }
+
 
 }

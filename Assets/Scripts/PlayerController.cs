@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : HumanManager
 {
     bool islookingRight;
     float horizontal = 0f;
@@ -13,8 +13,10 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        hp = 5;
         islookingRight = true;
     }
+
 
     // Update is called once per frame
     void Update()
@@ -41,9 +43,7 @@ public class PlayerController : MonoBehaviour
         //instantiating bullet with spacebar
         if (Input.GetKeyDown(KeyCode.Space) && bullets.Length == 0)
         {
-            Vector3 bulletSpawnPosition = islookingRight ? new Vector3(0.8f, 0, 0) : new Vector3(-0.8f, 0, 0);
-            GameObject newBullet = Instantiate(bulletPref, transform.position + bulletSpawnPosition, Quaternion.identity);
-            newBullet.GetComponent<BulletController>().speed = islookingRight ? Mathf.Abs(newBullet.GetComponent<BulletController>().speed) : -Mathf.Abs(newBullet.GetComponent<BulletController>().speed);
+            Shoot();
         }
 
 
@@ -54,4 +54,12 @@ public class PlayerController : MonoBehaviour
         islookingRight = !islookingRight;
         transform.Rotate(0f, 180f, 0f);
     }
+
+    public void Shoot()
+    {
+        Vector3 bulletSpawnPosition = islookingRight ? new Vector3(0.8f, 0, 0) : new Vector3(-0.8f, 0, 0);
+        GameObject newBullet = Instantiate(bulletPref, transform.position + bulletSpawnPosition, Quaternion.identity);
+        newBullet.GetComponent<BulletController>().speed = islookingRight ? Mathf.Abs(newBullet.GetComponent<BulletController>().speed) : -Mathf.Abs(newBullet.GetComponent<BulletController>().speed);
+    }
+
 }

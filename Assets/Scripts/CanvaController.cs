@@ -7,6 +7,8 @@ public class CanvaController : MonoBehaviour
 {
     public GameObject player;
     GameObject GM;
+    public GameObject PauseMenu;
+    public GameObject ListMenu;
 
 
     public TextMeshProUGUI playerHp;
@@ -37,12 +39,17 @@ public class CanvaController : MonoBehaviour
 
         Check();
 
-
-
-
-
-    
-
+        //when I press escape, the game will pause and the pause menu will appear
+        if ((Input.GetKeyDown(KeyCode.Escape)))
+        {
+            PauseMenu.SetActive(true);
+            Time.timeScale = 0f;
+        }
+        if ((Input.GetKeyDown(KeyCode.L)))
+        {
+            ListMenu.SetActive(true);
+            Time.timeScale = 0f;
+        }
 
 
     }

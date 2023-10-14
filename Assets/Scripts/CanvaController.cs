@@ -37,7 +37,14 @@ public class CanvaController : MonoBehaviour
 
         Check();
 
-        
+
+
+
+
+    
+
+
+
     }
 
     public void Check()

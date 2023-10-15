@@ -11,11 +11,12 @@ public class TeleportController: MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //if colling with player, teleport player to exit
-        if (collision.gameObject.CompareTag("Player"))
+        //if colling with player, teleport player to exit but don't change z position
+        if (collision.gameObject.tag == "Player")
         {
-            collision.gameObject.transform.position = exit.transform.position;
+            collision.gameObject.transform.position = new Vector3(exit.transform.position.x, exit.transform.position.y, collision.gameObject.transform.position.z);
         }
+        
     }
 
 }

@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - GM
   - Hook
+  - Trap
   layers:
   - Default
   - TransparentFX

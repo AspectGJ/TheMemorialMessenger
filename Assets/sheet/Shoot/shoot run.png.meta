@@ -1,0 +1,809 @@
+fileFormatVersion: 2
+guid: 2c55d44f794804e44bcf3f9f736548a3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shoot run_0
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 0
+        width: 387
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864d50fb692c1cb498386d16ffbac625
+      internalID: 1449687804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_1
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1
+        width: 404
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ad4f51d6216dc4cb5da4968de90982
+      internalID: 624027560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_2
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 6
+        width: 441
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddcdad664e1c0c42abc06429ebaec38
+      internalID: -1495087238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_3
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 0
+        width: 478
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decc1e0f3c73c284eb180053de06d1c0
+      internalID: 409244577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_4
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 0
+        width: 491
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5406354a7aef39d439b70f4cc6464560
+      internalID: 217143605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_5
+      rect:
+        serializedVersion: 2
+        x: 3308
+        y: 0
+        width: 517
+        height: 533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf46f5baad950e4d812d9591cc25629
+      internalID: -489614851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_6
+      rect:
+        serializedVersion: 2
+        x: 3946
+        y: 0
+        width: 534
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9633eb99728914d45af6b3385ea7ef48
+      internalID: -331531450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_7
+      rect:
+        serializedVersion: 2
+        x: 4593
+        y: 0
+        width: 531
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51931f1319d2ab34b901d4d03a7deebf
+      internalID: 283148284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_8
+      rect:
+        serializedVersion: 2
+        x: 5224
+        y: 0
+        width: 533
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4ef4b1cba2bcd47b59f802831b7ae4
+      internalID: 1229183848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_9
+      rect:
+        serializedVersion: 2
+        x: 5870
+        y: 0
+        width: 534
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be00b5b63efc0446b7955b708723b8d
+      internalID: -1999337075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_10
+      rect:
+        serializedVersion: 2
+        x: 6514
+        y: 0
+        width: 520
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d3c9b8c67ddfa42a2b4f227df3b2fb
+      internalID: 317443902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_11
+      rect:
+        serializedVersion: 2
+        x: 7192
+        y: 0
+        width: 471
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca70dbeced6b9241b958017e1048644
+      internalID: -12244154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_12
+      rect:
+        serializedVersion: 2
+        x: 7841
+        y: 0
+        width: 452
+        height: 515
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d2596f29747a44bab4dc6d15eb4b44
+      internalID: 1148948040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_13
+      rect:
+        serializedVersion: 2
+        x: 8511
+        y: 0
+        width: 395
+        height: 533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcd236906e70f54f859e0dca16ed085
+      internalID: -1047265798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_14
+      rect:
+        serializedVersion: 2
+        x: 9197
+        y: 0
+        width: 278
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacfe55645b365143a766fb30a92590f
+      internalID: -1040906811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_15
+      rect:
+        serializedVersion: 2
+        x: 9828
+        y: 0
+        width: 279
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca88654bdffddd459242d4c0e4dcdec
+      internalID: 1669650362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_16
+      rect:
+        serializedVersion: 2
+        x: 10437
+        y: 0
+        width: 312
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24ed13bc6133bd41afabdce2cb0a1f6
+      internalID: 746550207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_17
+      rect:
+        serializedVersion: 2
+        x: 11075
+        y: 0
+        width: 297
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e60c3f0d10c9f42aa057a3f3b6fcd7
+      internalID: 1606640565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_18
+      rect:
+        serializedVersion: 2
+        x: 11700
+        y: 0
+        width: 346
+        height: 551
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b98dd6a9d3d283449d3c942a2714940
+      internalID: 1770938700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_19
+      rect:
+        serializedVersion: 2
+        x: 12320
+        y: 0
+        width: 372
+        height: 553
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1b6a9a64bf53e4eb19979a6c0befca
+      internalID: 285640863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_20
+      rect:
+        serializedVersion: 2
+        x: 12964
+        y: 0
+        width: 358
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b2be3ad4bfb0e40b0853c156921e99
+      internalID: -1371766970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_21
+      rect:
+        serializedVersion: 2
+        x: 13587
+        y: 0
+        width: 406
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befac4e412d8e0b4caca1be195b19fdf
+      internalID: -459674933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_22
+      rect:
+        serializedVersion: 2
+        x: 14227
+        y: 0
+        width: 406
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101b6658f9364ba41974b4528837918a
+      internalID: 529139255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_23
+      rect:
+        serializedVersion: 2
+        x: 14845
+        y: 0
+        width: 426
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b0da9c491f2f64da3df024ac36c039
+      internalID: 2067783296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_24
+      rect:
+        serializedVersion: 2
+        x: 15489
+        y: 0
+        width: 429
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d374050d6907ce84382304ee3870303c
+      internalID: 1815758915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_25
+      rect:
+        serializedVersion: 2
+        x: 16163
+        y: 0
+        width: 369
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e24fc2d6551bc6438082e0ef4d341b4
+      internalID: -1387721202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_26
+      rect:
+        serializedVersion: 2
+        x: 16867
+        y: 0
+        width: 274
+        height: 543
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb7931f676b2c449b0ae3f746e70f12
+      internalID: 1418506274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_27
+      rect:
+        serializedVersion: 2
+        x: 17523
+        y: 0
+        width: 263
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d8313ee8944384490a69993e55f554
+      internalID: 693837546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_28
+      rect:
+        serializedVersion: 2
+        x: 18109
+        y: 0
+        width: 341
+        height: 533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4d973687ead6e418886af572d94ccc
+      internalID: -1989740688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_29
+      rect:
+        serializedVersion: 2
+        x: 18736
+        y: 0
+        width: 386
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5172771d0a902c34184ef8fdeb67d680
+      internalID: -505992206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot run_30
+      rect:
+        serializedVersion: 2
+        x: 19371
+        y: 0
+        width: 412
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e18f1e992980e047a309297c516491c
+      internalID: -1636988528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      shoot run_0: 1449687804
+      shoot run_1: 624027560
+      shoot run_10: 317443902
+      shoot run_11: -12244154
+      shoot run_12: 1148948040
+      shoot run_13: -1047265798
+      shoot run_14: -1040906811
+      shoot run_15: 1669650362
+      shoot run_16: 746550207
+      shoot run_17: 1606640565
+      shoot run_18: 1770938700
+      shoot run_19: 285640863
+      shoot run_2: -1495087238
+      shoot run_20: -1371766970
+      shoot run_21: -459674933
+      shoot run_22: 529139255
+      shoot run_23: 2067783296
+      shoot run_24: 1815758915
+      shoot run_25: -1387721202
+      shoot run_26: 1418506274
+      shoot run_27: 693837546
+      shoot run_28: -1989740688
+      shoot run_29: -505992206
+      shoot run_3: 409244577
+      shoot run_30: -1636988528
+      shoot run_4: 217143605
+      shoot run_5: -489614851
+      shoot run_6: -331531450
+      shoot run_7: 283148284
+      shoot run_8: 1229183848
+      shoot run_9: -1999337075
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
